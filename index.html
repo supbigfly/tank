@@ -1,10 +1,83 @@
 <html>
-<head>
-<title>
-大飞网
-</title>
-</head>
-<body>
-<div align="center">欢迎来到大飞网</div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			BigFly
+		</title>
+		<style>
+			*{
+			margin: 0;
+			padding: 0;
+			font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+		}
+		li{
+			list-style-type: none;
+		}
+		.clearfix:after,
+		.clearfix:before{
+			content: "";
+			display: table;
+		}
+		.clearfix:after{
+			clear: both;
+		}
+		body{
+			background-image: url("images/background-img.jpg");
+			background-repeat: no-repeat;
+			background-size:100% 100%;
+			
+		}
+		.wu{
+			background-color: #7FFF00;
+			width: 100%;
+			height: 100%;
+			opacity: 0.5;
+			animation:opa 5s 3;
+		}
+		h1{
+			font-size: 3em;
+			color:white;
+			box-shadow: left bottom green;
+			position: fixed;
+			left: 50%;
+			top:50%;
+			margin-left: -10%;
+		}
+		body .lianjie{
+			width: 7em;
+			height: 7em;
+			border-radius: 50%;
+			border-color: red;
+			border-style: dashed;
+			background-color: yellow;
+			position: fixed;
+			right:0px;
+			bottom:0px;
+		}
+		a{
+			font-size: 1em;
+			color:green;
+			display: block;
+			text-align: center;
+			line-height: 7em;
+			text-decoration: none;
+			border-radius: 1px;
+		}
+		@keyframes opa{
+			0%{opacity: 0.4}
+			25%{opacity: 0.3}
+			50%{opacity: 0.2}
+			75%{opacity: 0.1}
+			100%{opacity: 0}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="wu">
+		</div>
+		<h1>欢迎来到大飞网</h1>
+			<div class="lianjie">
+				<a href="group.html">Go!</a>
+			</div>
+	</body>
 </html>
