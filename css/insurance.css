@@ -1,0 +1,99 @@
+.wrap{
+	width: 80%;
+	margin: 0 auto;
+	background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
+	-o-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
+	-ms-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
+	-moz-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
+	-webkit-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
+	border-left: 1px #7FFFD4 solid;
+	border-right: 1px #7FFFD4 solid;
+}
+/*段落标题*/
+yanse{
+	padding-left: 10em;
+	color:red;
+	display: block;
+	/*margin:0 auto;*/
+}
+.hamburger{
+	display: block;
+	border-radius: 35%;
+	width: 4.5em;
+	height: 4.5em;
+	color:#ffffff;
+	/*font-size: 2em;*/
+	background-color: #000000;
+	text-align: center;
+	line-height: 4.5em;
+	text-decoration: none;
+	position: fixed;
+	right: 15px;
+	bottom:8em;
+}
+.groups{
+	display: block;
+	border-radius: 50%;
+	width: 4.5em;
+	height: 4.5em;
+	color:#ffffff;
+	background-color: #000000;
+	text-align: center;
+	line-height: 4.5em;
+	text-decoration: none;
+	position: fixed;
+	left:2em;
+	bottom:8em;
+}
+.super{
+		display: block;
+		border-radius: 35%;
+		width: 4.5em;
+		height: 4.5em;
+		color:#ffffff;
+		/*font-size: 2em;*/
+		background-color: #D3D3D3;
+		text-align: center;
+		vertical-align: middle;
+		text-decoration: none;
+		position: fixed;
+		left: 15px;
+		bottom:42px;
+	}
+._title p{
+	color:blue;
+	text-shadow:5px 5px 5px #FFA500;
+}
+._title a{
+	display: inline-block;
+	font-size: 1.2em;
+	text-decoration: none;
+	margin-left: .5em;
+}
+p{
+	margin-bottom: .4em;
+}
+.weixin{
+	width: 9.2em;
+	height: 15em;
+	position: fixed;
+	left: 0em;
+	top:5em;
+	z-index: -1;
+}
+.zhifu{
+	width: 9.2em;
+	height: 15em;
+	position: fixed;
+	right: 0em;
+	top:5em;
+}
+/*装饰*/
+.yahei p{
+	font-size: 1.15em;
+	padding: 0em 1em;
+}
+table{
+	border:1px solid #fff;
+	margin:0 auto; 
+}
