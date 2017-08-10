@@ -6,32 +6,52 @@
 		</title>
 		<link rel="stylesheet" href="css/public.css">
 		<style>
-		body{	
-			background: linear-gradient(to bottom right,red,blue);
-			-o-background: linear-gradient(to bottom right,red,blue);
-			-ms-background: linear-gradient(to bottom right,red,blue);
-			-moz-background: linear-gradient(to bottom right,red,blue);
-			-webkit-background: linear-gradient(to bottom right,red,blue);
-		}
-		h1{
-			font-size: 3em;
-			color:white;
-			box-shadow: left bottom green;
-			position: fixed;
-			left: 50%;
-			top:50%;
-			margin-left: -10%;
-		}
-		a{
-			font-size: 1em;
-			color:green;
-			display: block;
-			text-align: center;
-			line-height: 7em;
-			text-decoration: none;
-			border-radius: 1px;
-			
-		}
+			body{
+				background: #000000;
+				color:#ffffff;
+			}
+			@media screen and (min-width:960px){
+				body{	
+					background: linear-gradient(to bottom right,red,blue);
+					-o-background: linear-gradient(to bottom right,red,blue);
+					-ms-background: linear-gradient(to bottom right,red,blue);
+					-moz-background: linear-gradient(to bottom right,red,blue);
+					-webkit-background: linear-gradient(to bottom right,red,blue);
+				}
+			}
+			h1{
+				font-size: 3em;
+				color:white;
+				box-shadow: left bottom green;
+				position: fixed;
+				left: 50%;
+				top:50%;
+				/*margin-top: -10%;*/
+				margin-left: -10%;
+			}
+			.dianji{
+				color:#ffffff;
+				position: fixed;
+				left: 50%;
+				top:60%;
+				-webkit-animation-name: "dong";
+				-webkit-animation-duration: 1s;/*多少秒完成*/
+				-webkit-animation-iteration-count: infinite;/*重复次数*/
+				-webkit-animation-delay: 0;/*延迟时间*/
+			}
+			a{
+				font-size: 1em;
+				color:green;
+				display: block;
+				text-align: center;
+				line-height: 7em;
+				text-decoration: none;
+				border-radius: 1px;
+				
+			}
+			@-webkit-keyframes dong{
+				0%{top:60%;}50%{top:64%;}100%{top:60%;}
+			}
 		</style>
 	</head>
 	<body>
@@ -39,6 +59,9 @@
 			<h1>
 				欢迎来到大飞网
 			</h1>
+			<p class="dianji">
+				|点击我吧|
+			</p>
 		</a>	
 	</body>
 </html>
