@@ -1,8 +1,8 @@
 body{
-	background-color: #f391a9;
+	background-color: #8B8989;
 }
 .wrap{
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 	background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
 	-o-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
@@ -45,7 +45,7 @@ yanse{
 	line-height: 4.5em;
 	text-decoration: none;
 	position: fixed;
-	left:2em;
+	left:1em;
 	bottom:8em;
 }
 .super{
@@ -77,14 +77,6 @@ yanse{
 p{
 	margin-bottom: .4em;
 }
-.weixin{
-	width: 9.2em;
-	height: 15em;
-	position: fixed;
-	left: 0em;
-	top:5em;
-	/*z-index: -1;*/
-}
 .zhifu{
 	width: 9.2em;
 	height: 15em;
@@ -98,6 +90,18 @@ p{
 	padding: 0em 1em;
 }
 table{
-	border:1px solid #fff;
+	/*border:1px solid #fff;*/
 	margin:0 auto; 
+}
+table td{
+	border: 1px dashed red;
+}
+/*青牛图片*/
+.qn_img{
+	width: 25em;
+	height: 20em;
+}
+.qn_img_sip{
+	width: 35em;
+	height: 15em;
 }
