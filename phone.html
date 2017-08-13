@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手机</title>
+</head>
+<body>
+	<div class="wrap">
+		<header></header>
+		<div class="main">
+			<h3>Android手机的BIOS----Bootloader与HBoot</h3>
+			<p>电脑依靠主板BIOS才能引导，手机同样也有类似的设计----Bootloader。Bootloader可以简单的理解为一段系统引导加载程序，用于初始硬件设备、建立内存空间映射图，准备系统的软硬件环境，以便最终调用操作系统内核。整个系统的加载启动任务完全由Bootloader来完成。Bootloader最直观的表现是，在手机关机的情况下，按住音量大建的同时，按下手机键即可进入一个字符操作界面。这就是所谓的Bootloader与用户进行交互的HBoot界面，在HBoot中使用Fastboot功能，就可以进行刷机或系统恢复操作。Bootloader是写入固件中的，我们所谓的刷机操作绝对不会修改固件。因此刷机后无论出现什么问题，只要Bootloader没有损坏，就能进行Fastboot操作，甚至手机变砖了也绝对能重新恢复----因此，不要把刷机想得这么可怕。手机变砖？----官方ROM引发的S-ON问题，初学者刷机的人会常犯一个错误，就是无意刷了官方的ROM而导致手机重新回到S-ON状态，此时无法再刷入任何第三方的ROM程序。解决方法很简单，再次进行S-OFF的操作即可，具体的方法可以上网搜索相关教程。刷机还可以‘一键刷机’就像电脑中‘一键Ghost’那样，前提是掌握了上面的方法才可以使用此工具----“固件管理器”。在使用之前必须获得Root权限，之后在功能列表中点击‘刷入ClockworkMod Recovery’，即可自动写入或更新Recovery，无需重启进入到Bootloader模式下操作。要刷入固件ROM，可以选择“从SD卡安装固件”然后指向文件，随后在预安装选项中选择是否备份当前固件及清除数据缓存等，确定后即可自动重启刷入指定固件。固件管理器最强大的功能在于可以自动下载当前手机所支持固件，选择“检查固件更新”功能即可。</p>
+		</div>
+		<footer></footer>
+	</div>
+</body>
+</html>
