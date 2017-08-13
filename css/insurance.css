@@ -1,5 +1,5 @@
 body{
-	background-color: #8B8989;
+	background-color: #f7e9af;
 }
 .wrap{
 	width: 85%;
@@ -94,7 +94,7 @@ table{
 	margin:0 auto; 
 }
 table td{
-	border: 1px dashed red;
+	border: 1px dashed #b7ba6b;
 }
 /*青牛图片*/
 .qn_img{
