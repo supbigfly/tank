@@ -96,6 +96,20 @@ table{
 table td{
 	border: 1px dashed #b7ba6b;
 }
+/*交强险*/
+.pf_left{
+	color: white;
+	float: left;
+	width: 10em;
+	height: 6.5em;
+	background-color: #6b473c;
+
+}
+/*公司地址*/
+site{
+	color: white;
+	background-color: black;
+}
 /*青牛图片*/
 .qn_img{
 	width: 25em;
