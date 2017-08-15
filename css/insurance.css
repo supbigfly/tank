@@ -4,6 +4,9 @@ body{
 .wrap{
 	width: 85%;
 	margin: 0 auto;
+	padding:0em 1em;
+	box-shadow: .1em 0em 1.2em 1em black;
+	/*水平距离，垂直距离，模糊，尺寸，颜色，inset外部阴影outset改成内部阴影*/
 	background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
 	-o-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
 	-ms-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
@@ -118,4 +121,11 @@ site{
 .qn_img_sip{
 	width: 35em;
 	height: 15em;
+}
+/*错误信息提示*/
+.error01,.error02,.error03{
+	/*width: 20em;
+	height: 8em;*/
+	/*float: left;*/
+	/*margin-left: 4em;*/
 }
