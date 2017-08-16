@@ -7,13 +7,6 @@ body{
 	padding:0em 1em;
 	box-shadow: .1em 0em 1.2em 1em black;
 	/*水平距离，垂直距离，模糊，尺寸，颜色，inset外部阴影outset改成内部阴影*/
-	background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
-	-o-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
-	-ms-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
-	-moz-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
-	-webkit-background: linear-gradient(to bottom right,#D3D3D3,#CDB38B);
-	/*border-left: 1px #7FFFD4 solid;
-	border-right: 1px #7FFFD4 solid;*/
 }
 /*段落标题*/
 yanse{
