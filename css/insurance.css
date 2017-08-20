@@ -43,8 +43,6 @@ header{
 	margin-top: 2px;
 }
 ._titlesk div{
-	/*background-color: #6b473c;*/
-	/*color:white;*/
 	padding-left: 1em;
 }
 ._titlesk div p{
@@ -60,6 +58,17 @@ table{
 }
 table td{
 	border: 1px dashed #b7ba6b;
+}
+@media screen and (max-width:960px){
+	._titlesk div{	
+		padding-left: 0em;
+	}
+	.jiaoqiang table{
+		float:none;
+	}
+	.chechuan{
+		width: 505px;
+	}
 }
 /*公司地址*/
 site{
