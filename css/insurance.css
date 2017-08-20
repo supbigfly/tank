@@ -1,105 +1,65 @@
 body{
-	background-color: #f7e9af;
+	background-color: #f1f1f1;
 }
+header{
+	width: 100%;
+	height:10em;
+	background-color: #D8BFD8;
+	opacity: .6;
+}
+.logo{
+	width: 3em;
+	height: 3em;
+	padding:3em 0px 3em 2em;
+}
+/*内容部分*/
 .wrap{
 	width: 85%;
-	margin: 0 auto;
+	margin: 5px auto 0px auto;
 	padding:0em 1em;
-	box-shadow: .1em 0em 1.2em 1em black;
-	/*水平距离，垂直距离，模糊，尺寸，颜色，inset外部阴影outset改成内部阴影*/
 }
-/*段落标题*/
-yanse{
-	padding-left: 10em;
-	color:red;
-	display: block;
-	/*margin:0 auto;*/
+._title{
+	border:2px solid #4B0082;
 }
-.hamburger{
-	display: block;
-	border-radius: 35%;
-	width: 4.5em;
-	height: 4.5em;
-	color:#ffffff;
-	/*font-size: 2em;*/
-	background-color: #000000;
-	text-align: center;
-	line-height: 4.5em;
-	text-decoration: none;
-	position: fixed;
-	right: 15px;
-	bottom:8em;
-}
-.groups{
-	display: block;
-	border-radius: 50%;
-	width: 4.5em;
-	height: 4.5em;
-	color:#ffffff;
-	background-color: #000000;
-	text-align: center;
-	line-height: 4.5em;
-	text-decoration: none;
-	position: fixed;
-	left:1em;
-	bottom:8em;
-}
-.super{
-		display: block;
-		border-radius: 35%;
-		width: 4.5em;
-		height: 4.5em;
-		color:#ffffff;
-		/*font-size: 2em;*/
-		background-color: #D3D3D3;
-		text-align: center;
-		vertical-align: middle;
-		text-decoration: none;
-		position: fixed;
-		left: 15px;
-		bottom:42px;
-	}
-._title p{
+._titles p{
 	color:blue;
 	text-shadow:5px 5px 5px #FFA500;
 }
-._title a{
+._titles a{
 	display: inline-block;
 	font-size: 1.2em;
 	text-decoration: none;
 	margin-left: .5em;
 	color:#aa2116;
 }
-p{
-	margin-bottom: .4em;
+.flower{
+	background-image: url(http://7xoq4g.com1.z0.glb.clouddn.com/zhifu.jpg);
+	background-size: 100px 100px;
+	width: 100%;/*层的宽度*/
+	height: 100px;/*层的高度*/
 }
-.zhifu{
-	width: 9.2em;
-	height: 15em;
-	position: fixed;
-	right: 0em;
-	top:5em;
+._titlesk{
+	border:2px dashed #800080;
+	margin-top: 2px;
+}
+._titlesk div{
+	/*background-color: #6b473c;*/
+	/*color:white;*/
+	padding-left: 1em;
+}
+._titlesk div p{
+	color:red;
 }
 /*装饰*/
-.yahei p{
-	font-size: 1.15em;
-	padding: 0em 1em;
+.jiaoqiang table{
+	float: left;
 }
 table{
-	/*border:1px solid #fff;*/
-	margin:0 auto; 
+	/*float: left;*/
+	background: #2a5caa;
 }
 table td{
 	border: 1px dashed #b7ba6b;
-}
-/*交强险*/
-.pf_left{
-	color: white;
-	float: left;
-	width: 10em;
-	height: 6.5em;
-	background-color: #6b473c;
-
 }
 /*公司地址*/
 site{
@@ -107,6 +67,9 @@ site{
 	background-color: black;
 }
 /*青牛图片*/
+.qingniu{
+	clear: both;
+}
 .qn_img{
 	width: 25em;
 	height: 20em;
@@ -115,10 +78,18 @@ site{
 	width: 35em;
 	height: 15em;
 }
-/*错误信息提示*/
-.error01,.error02,.error03{
-	/*width: 20em;
-	height: 8em;*/
-	/*float: left;*/
-	/*margin-left: 4em;*/
+/*向上按钮*/
+.hamburger{
+	display: block;
+	width: 3.5em;
+	height: 4em;
+	color:#ffffff;
+	/*font-size: 2em;*/
+	background-color: #000000;
+	text-align: center;
+	line-height: 4em;
+	text-decoration: none;
+	position: fixed;
+	right: 15px;
+	bottom:6em;
 }
