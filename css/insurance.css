@@ -78,8 +78,15 @@ site{
 	height: 20em;
 }
 .qn_img_sip{
-	width: 35em;
-	height: 15em;
+	width: 30em;
+	height: 20em;
+}
+.error01,.error02,.error01{
+	width: 19em;
+	height: 12em;
+	border:2px solid #1d953f;
+	margin-right: 1em;
+	float: left;
 }
 /*向上按钮*/
 .hamburger{
