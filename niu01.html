@@ -4,84 +4,85 @@
 <head>
 	<meta charset="UTF-8">
 	<title>transition与position</title>
+  <link rel="stylesheet" href="css/public.css">
 	<style>
-.big {
-  margin:0 auto;
-  width: 500px;
-  height: 500px; 
-  background-color: #A8A8A8;
-  position: relative;
-}
-.hat {
-  width: 100px;
-  height: 60px;
-  background-color: red;
-  border-radius: 50px 50px 0 0;
-  position: absolute;
-  top: 40px;
-  left: 30px;
-}
-.ball {
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border-radius: 15px;
-  position: absolute;
-  top: 20px;
-  left: 80px;
-}
-.face {
-  width: 80px;
-  height: 50px;
-  background-color: #FFCC99;
-  border-radius: 0 0 40px 40px;
-  position: absolute;
-  top: 100px;
-  left: 40px;
-}
-.l-eyes {
-  width: 5px;
-  height: 5px;
-  background-color: #000;
-  border-radius: 3px;
-  position: absolute;
-  left: 15px;
-  top: 5px;
-}
-.r-eyes {
-  width: 5px;
-  height: 5px;
-  background-color: #000;
-  border-radius: 3px;
-  position: absolute;
-  left: 60px;
-  top: 5px;
-}
-.mouth {
-  width: 35px;
-  height: 35px;
-  background-color: #FFCC99;
-  border-radius: 20px;
-  box-shadow: inset 0px -5px 0 #fff;
-  position: absolute;
-  left: 20px;
-  transition: all 1s;
-}
-.big:hover .ball {
-  top: 50px;
-}
-.big:hover .mouth {
-  box-shadow: inset 0 5px 0 #000;
-  top: 20px;
-}
-.big:hover .l-eyes {
-  width: 10px;
-  height: 2px;
-}
-.big:hover .r-eyes {
-  width: 10px;
-  height: 2px;
-}
+    .big {
+      margin:0 auto;
+      width: 500px;
+      height: 500px; 
+      background-color: #A8A8A8;
+      position: relative;
+    }
+    .hat {
+      width: 100px;
+      height: 60px;
+      background-color: red;
+      border-radius: 50px 50px 0 0;
+      position: absolute;
+      top: 40px;
+      left: 30px;
+    }
+    .ball {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      border-radius: 15px;
+      position: absolute;
+      top: 20px;
+      left: 80px;
+    }
+    .face {
+      width: 80px;
+      height: 50px;
+      background-color: #FFCC99;
+      border-radius: 0 0 40px 40px;
+      position: absolute;
+      top: 100px;
+      left: 40px;
+    }
+    .l-eyes {
+      width: 5px;
+      height: 5px;
+      background-color: #000;
+      border-radius: 3px;
+      position: absolute;
+      left: 15px;
+      top: 5px;
+    }
+    .r-eyes {
+      width: 5px;
+      height: 5px;
+      background-color: #000;
+      border-radius: 3px;
+      position: absolute;
+      left: 60px;
+      top: 5px;
+    }
+    .mouth {
+      width: 35px;
+      height: 35px;
+      background-color: #FFCC99;
+      border-radius: 20px;
+      box-shadow: inset 0px -5px 0 #fff;
+      position: absolute;
+      left: 20px;
+      transition: all 1s;
+    }
+    .big:hover .ball {
+      top: 50px;
+    }
+    .big:hover .mouth {
+      box-shadow: inset 0 5px 0 #000;
+      top: 20px;
+    }
+    .big:hover .l-eyes {
+      width: 10px;
+      height: 2px;
+    }
+    .big:hover .r-eyes {
+      width: 10px;
+      height: 2px;
+    }
 	</style>
 </head>
 <body>
@@ -94,5 +95,6 @@
     			<div class="r-eyes"></div>
   		</div>
 	</div>
+  <a href="group.html" class="aindex">Group</a>
 </body>
 </html>

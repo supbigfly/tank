@@ -1,3 +1,6 @@
+body{
+	background: url(http://7xoq4g.com1.z0.glb.clouddn.com/bg001.jpg) 0px 0px repeat rgb(229, 230, 208);
+}
 header{
 	width: 100%;
 	height:10em;
@@ -10,42 +13,18 @@ header{
 	padding:3em 0px 3em 2em;
 }
 /*内容部分*/
-._titles{
-	/*width: 30%;*/
-	float: left;
-	margin-left: 2em;
-	background-color: green;
-}
-._titles p{
-	color:red;
-	text-shadow:5px 5px 5px #FFA500;
-}
-._titles a{
-	display: inline-block;
-	font-size: 1.2em;
-	text-decoration: none;
-	margin-left: .5em;
-	color:white;
+.nav a{
+	width: 10em;
+	height: 5em;
+	border:1px solid white;
+	margin-right: 10em;
+	/*padding-bottom: 5em;*/
 }
 .flower{
 	background-image: url(http://7xoq4g.com1.z0.glb.clouddn.com/zhifu.jpg);
 	background-size: 100px 100px;
-	width: 100%;
+	width: 100px;
 	height: 100px;
-}
-._titlesk{
-	border:2px dashed #800080;
-	margin-top: 2px;
-}
-._titlesk div{
-	padding-left: 1em;
-}
-._titlesk div p{
-	color:red;
-}
-/*装饰*/
-.jiaoqiang table{
-	float: left;
 }
 table{
 	background: #2a5caa;
@@ -64,48 +43,8 @@ table td{
 		width: 505px;
 	}
 }
-/*公司地址*/
-site{
-	color: white;
-	background-color: black;
-}
-/*青牛图片*/
-.qingniu{
-	clear: both;
-}
-.qn_img{
-	width: 25em;
-	height: 20em;
-}
-.qn_img_sip{
-	width: 30em;
-	height: 20em;
-}
-.error01,.error02,.error01{
-	width: 19em;
-	height: 12em;
-	border:2px solid #1d953f;
-	margin-right: 1em;
-	float: left;
-}
-/*向上按钮*/
-.hamburger{
-	display: block;
-	width: 3.5em;
-	height: 4em;
-	color:#ffffff;
-	/*font-size: 2em;*/
-	background-color: #000000;
-	text-align: center;
-	line-height: 4em;
-	text-decoration: none;
-	position: fixed;
-	right: 15px;
-	bottom:6em;
-}
 footer{
 	width: 100%;
-	position: absolute;
-	left: 0px;
-	bottom:0px;
+	height:105px;
+	background-color: #D8BFD8;
 }
