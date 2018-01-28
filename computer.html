@@ -4,42 +4,45 @@
 	<meta charset="UTF-8">
 	<title>computer</title>
 	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/public-text.css">
 </head>
 <body>
-	<h3>安装系统总是蓝屏</h3>
-	<p>重启计算机，进入BIOS找到“Serial ATA”设置，将硬盘模式从AHCI（高级接口模式）改为Compatibility（兼容模式，模拟传统的IDE硬盘）。保持修改后重启计算机，开始安装系统（建议找到集成了SATA驱动的安装盘，否则安装系统后也得自行安装该驱动），安装完毕后应该可以正常进入系统了。此后再次进入BIOS,将Compatibility改回AHCI即可。</p>
-
-	<h3>IP地址非法</h3>
-	<p>由于“DHCP Client”服务被禁用导致的错误，在系统“管理工具”中打开“服务”，而后在右侧视图的服务列表中找到“DHCP Client”，右键单击，再弹出的菜单中选择“属性”，而后设置“服务状态”为“启动”，再选择“启动类型”为“自动”，确认操作即可。</p>
-
-	<h3>安装xp系统找不到硬盘</h3>
-	<p>将驱动程序软盘的根目录下的TXTSETUP.OEM文件用记事本打开，复制内容粘贴到TXTSETUP.SIF文件夹中，这是制作安装盘的必备文件，在I386目录中。</p>
-
-	<h3>dell电脑的windows Embedded Standard系统的保存修改，关闭保护，启用保护功能</h3>
-	<p>使用后的系统做出修改后要点击自解压文件保存修改无密码版那个文件，在弹出已保存的窗口后就是可以了。</p>
-
-	<h3>有线连接局域网传输文件</h3>
-	<p>电脑与交换机通过网线连接，本地连接分别设置Ip地址为同一网段如：192.168.1.x，网管设置为路由器的地址如192.168.1.1，再将电脑设为同一工作组。按win+pauseBreak键打开系统属性窗口切换到计算机名选项卡单机更改按钮，在弹出的窗口“隶属于”栏设置同一工作组（如WORKGROUP）。保存设置后就可以通过网上邻居共享文件了。也可以用飞鸽传书等软件。</p>
-
-	<h3>关机后光电鼠标依然闪烁</h3>
-	<p>进入BIOS菜单找到Power Management Setup页面将“USB Wake-Up From S3”或含义相似的选项设置为Disable即可。</p>
-
-	<h3>开机必须按F1才能进入系统</h3>
-	<p>开机出现cpu fan error press f1 to resume提示，是cpu风扇出现错误，检查有没有接触哦cpu散热器的电源线，应该接到cpu fan接口上，开机后cpu风扇运行正常，还是出现提示，可以重启电脑进入bios关闭cpu fan failure warning保存设置后重新启动就可以了。</p>
-
-	<h3>windows远程桌面传送文件</h3>
-	<p>win+R,mstsc打开“远程桌面连接”单击选项按钮展开配置窗口，切换到本地资源选项卡，在本地设备栏勾选磁盘驱动器复选框，单击确定按钮。以后再使用远程桌面连接时，远程计算机上的“我的电脑”中，会出现本机各磁盘和远程计算机的磁盘各分区，在这些分区中心，你可以随心所欲地进行打开、复制或粘贴等操作。</p>
-	<!-- 优化 -->
-	<h3>去除图标阴影</h3>
-	<p>运行-gpedit.msc（组策略）-用户配置-管理模板-桌面-Active Desktop-右键单击启动活动桌面-属性-已禁用。设置主题为windows经典,性能-高级-性能-视觉效果-使桌面文字透明。</p>
-	<!-- 编程 -->
-	<h3>IE6支持多个页面</h3>
-	<p>详情请按F12查看源码注释</p>
-	<!-- 打开记事本输入：<script language="javaScript">function Onload(){
-	window.open("http://www.163.com","_self");window.open("http://www.baidu.com","_blank")
-	}
-	</script>
-	<body onload="Onload()"></body>将文件保存为html，再Internet属性窗口将该文件设置为主页 -->
+	<div class="top">
+	</div>
+	<div class="left">
+		<a href="#001">1.安装系统总是蓝屏</a>
+		<a href="#002">2.IP地址非法</a>
+		<a href="#003">3.安装xp系统找不到硬盘</a>
+		<a href="#004">4.dell电脑的windows Embedded Standard系统的保存修改，关闭保护，启用保护功能</a>
+		<a href="#005">5.有线连接局域网传输文件</a>
+		<a href="#006">6.关机后光电鼠标依然闪烁</a>
+		<a href="#007">7.开机必须按F1才能进入系统</a>
+		<a href="#008">8.windows远程桌面传送文件</a>
+		<a href="#009">9.去除图标阴影</a>
+		<a href="#010">10.IE6支持多个页面</a>
+		<a href="#011">11.家庭版windows10关闭小娜</a>
+		<a href="#012">12.优化windows10服务</a>
+		<a href="#013">13.关闭windows defender</a>
+	</div>
+	<div class="right">
+		<a name="001">1.重启计算机，进入BIOS找到“Serial ATA”设置，将硬盘模式从AHCI（高级接口模式）改为Compatibility（兼容模式，模拟传统的IDE硬盘）。保持修改后重启计算机，开始安装系统（建议找到集成了SATA驱动的安装盘，否则安装系统后也得自行安装该驱动），安装完毕后应该可以正常进入系统了。此后再次进入BIOS,将Compatibility改回AHCI即可</a>
+		<a name="002">2.由于“DHCP-Client”服务被禁用导致的错误，在系统“管理工具”中打开“服务”，而后在右侧视图的服务列表中找到“DHCP Client”，右键单击，再弹出的菜单中选择“属性”，而后设置“服务状态”为“启动”，再选择“启动类型”为“自动”，确认操作即可。</a>
+		<a name="003">3.将驱动程序软盘的根目录下的TXTSETUP.OEM文件用记事本打开，复制内容粘贴到TXTSETUP.SIF文件夹中-这是制作安装盘的必备文件-在I386目录中。</a>
+		<a name="004">4.使用后的系统做出修改后要点击自解压文件保存修改无密码版那个文件，在弹出已保存的窗口后就是可以了</a>
+		<a name="005">5.电脑与交换机通过网线连接，本地连接分别设置Ip地址为同一网段如：192.168.1.x，网管设置为路由器的地址如192.168.1.1，再将电脑设为同一工作组。按win+pauseBreak键打开系统属性窗口切换到计算机名选项卡单机更改按钮，在弹出的窗口“隶属于”栏设置同一工作组（如WORKGROUP）。保存设置后就可以通过网上邻居共享文件了。也可以用飞鸽传书等软件</a>
+		<a name="006">6.进入BIOS菜单找到Power Management Setup页面将“USB Wake-Up From S3”或含义相似的选项设置为Disable即可</a>
+		<a name="007">7.开机出现cpu fan error press f1 to resume提示是cpu风扇出现错误检查有没有接触哦cpu散热器的电源线-应该接到cpu fan接口上-开机后cpu风扇运行正常-还是出现提示-可以重启电脑进入bios关闭cpu fan failure warning保存设置后重新启动就可以了</a>
+		<a name="008">8.win+R,mstsc打开“远程桌面连接”单击选项按钮展开配置窗口，切换到本地资源选项卡，在本地设备栏勾选磁盘驱动器复选框，单击确定按钮。以后再使用远程桌面连接时，远程计算机上的“我的电脑”中，会出现本机各磁盘和远程计算机的磁盘各分区，在这些分区中心，你可以随心所欲地进行打开、复制或粘贴等操作</a>
+		<a name="009">9.运行-gpedit.msc（组策略）-用户配置-管理模板-桌面-Active Desktop-右键单击启动活动桌面-属性-已禁用。设置主题为windows经典,性能-高级-性能-视觉效果-使桌面文字透明。</a>
+		<a name="010">10.详情请按F12查看源码注释<!-- 打开记事本输入：<script language="javaScript">function Onload(){window.open("http://www.163.com","_self");window.open("http://www.baidu.com","_blank")}</script><body onload="Onload()"></body>将文件保存为html，再Internet属性窗口将该文件设置为主页 --></a>
+		<a name="011">11.win+R,regedit,HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows 
+在Windows上单击右键，选择新建项命名为Windows Search
+在Windows Search项下新建一个名为 AllowCortana 的 DWORD（32-位）值，并将其值设置为0即可</a>
+		<a name="012">12.services.msc服务HomeGroupListener,HomeGroupProvider,Superfetch</a>
+		<a name="013">13.升级家庭版到专业版，开始菜单-设置-更新-激活-更改密钥-输入密钥VK7JG-NPHTM-C97JM-9MPGT-3V66T待升级成功后打开组策略关闭windows defender后运行小马激活后运行slmgr vbs -xpr查看何时过期一般情况是180天后过期</a>
+	</div>
+	<div class="bottom"></div>
 	<a href="group.html" class="aindex">Group</a>
+	<a class="hamburger" href="#"></a>
 </body>
 </html>

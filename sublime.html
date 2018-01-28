@@ -4,31 +4,39 @@
 	<meta charset="UTF-8">
 	<title>sublime设置</title>
 	<link rel="stylesheet" href="css/public.css">
-	<style>
-		body{
-			background-color: #000;
-			color:white;
-		}
-	</style>
+	<link rel="stylesheet" href="css/public-text.css">
 </head>
 <body>
-	<div class="first">
-		<h3>sublime设置</h3>
-		Preferences>Browse Packages打开后发现在C盘&nbsp;官网https://packagecontrol.io/installation&nbsp;Package-Control.sublime-package目标另存为&nbsp;Installed Packages文件夹下&nbsp;重新启动sublime
+	<div class="top">
 	</div>
-	<div class="second">
-		<h3>设置sublime自动保存</h3>
-		Preferences----setting----在default里面ctrl+f----save----复制"save_on_focus_lost":false----粘贴到user下将值改成true
+	<div class="left">
+		<a href="#001">1.package control安装</a>
+		<a href="#002">2.自动保存</a>
+		<a href="#003">3.插件emmet</a>
+		<a href="#004">4.快捷键</a>
+		<a href="#005">5.插件Atom</a>
 	</div>
-	<div class="third">
-		<h3>快捷键</h3>
-		!+Tab初始结构&nbsp;table>tr>td*5+Tab表格结构&nbsp;ctrl+/注释&nbsp;shift+Tab取消缩进&nbsp;Tab缩进
-	</div>
-	<div class="fourth">
-		<h3>插件Atom</h3>
-		Atom是一个单独的编辑器，曾记得可以弄到sublime中的，忘记了，只好容忍atom了。
+	<div class="right">
+		<a name="001">
+			1.（代码设置方法）&nbsp;ctrl+`调出console,复制如下代码粘贴import  urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())后回车重启sublime<br>
+			2.（安装包设置方法）&nbsp;Preferences>Browse Packages打开后发现在C盘&nbsp;官网https://packagecontrol.io/installation&nbsp;Package-Control.sublime-package目标另存为&nbsp;Installed Packages文件夹下&nbsp;重新启动sublime
+		</a>
+		<a name="002">
+			Preferences----setting----在default里面ctrl+f----save----复制"save_on_focus_lost":false----粘贴到user下将值改成true
+		</a>
+		<a name="003">
+			Preferences--package console--install package--emmet回车
+		</a>
+		<a name="004">
+			!+Tab初始结构&nbsp;table>tr>td*5+Tab表格结构&nbsp;ctrl+/注释&nbsp;shift+Tab取消缩进&nbsp;Tab缩进
+		</a>
+		<a name="005">
+			Atom是一个单独的编辑器，曾记得可以弄到sublime中的，忘记了，只好容忍atom了。
 		网址https://atom.io/&nbsp;下载-安装-Install-file-settings-install-activate-power-mode在设置中combo mode将勾选去掉后出现效果。minimap是安装的插件右侧的导航菜单视图。screen shake是震动效果。打开浏览器得安装插件open-in-browsers：这个插件是在左侧右击打开浏览器。
+		</a>
 	</div>
+	<div class="bottom"></div>
 	<a href="group.html" class="aindex">Group</a>
+	<a class="hamburger" href="#"></a>
 </body>
 </html>

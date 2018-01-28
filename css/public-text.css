@@ -1,0 +1,25 @@
+body{
+	style="color: #fff"
+}
+.left{
+	height:100%;
+	width:19%;
+	float: left;
+	background-color: #5f3c23;
+}
+.left a{
+	text-decoration: none;
+	color:white;
+	margin-top: 0.5em;
+	display: block;
+}
+.right{
+	width: 79%;
+	height:100%;
+	background-color: #726930;
+	float: right;
+}
+.right a{
+	display: block;
+	margin-top: .39em;
+}

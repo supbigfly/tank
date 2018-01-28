@@ -10,11 +10,18 @@
 .clearfix:after{
 	clear: both;
 }
+a:link,
+a:visited{
+	text-decoration: none;
+}
 li{
 	list-style-type: none;
 }
+body{
+	background: url(http://7xoq4g.com1.z0.glb.clouddn.com/bg001.jpg) 0px 0px repeat rgb(229, 230, 208);
+}
 .nav a{
-	color:white;text-decoration: none;
+	color:white;
 }
 /*返回首页*/
 .aindex{
@@ -36,36 +43,22 @@ li{
 .top,.bottom{
 	width: 100%;
 	height: 3em;
-	background-color: #426ab3;
+	background-color: #616161;
 }
-.left{
-	height:100%;
-	width:19%;
-	float: left;
-	/*color:red;*/
-	background-color: #426ab3;
-}
-.left a{
-	text-decoration: none;
-	color:white;
-}
-.right{
-	width: 79%;
-	height:100%;
-	background-color: #426ab3;
-	float: right;
+.bottom{
+	clear:both;
 }
 /*向上按钮*/
 .hamburger{
 	display: block;
 	width: 3.5em;
 	height: 4em;
-	color:#ffffff;
-	background-color: #000000;
+	background-image: url(http://7xoq4g.com1.z0.glb.clouddn.com/scrollup.png);
+	background-repeat: no-repeat;
 	text-align: center;
 	line-height: 4em;
 	text-decoration: none;
 	position: fixed;
 	right: 15px;
-	bottom:6em;
+	bottom:5em;
 }
